@@ -1,0 +1,19 @@
+button {
+  display: flex;
+  padding: 8px 38px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
