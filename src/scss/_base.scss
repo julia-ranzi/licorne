@@ -33,7 +33,7 @@ body {
     url(../img/background-bouclier.svg), url(../img/background-armure.svg),
     url(../img/background-accolade.svg);
   background-repeat: no-repeat;
-  background-position: bottom, 0 2050px, 300px 2650px, 400px 4350px;
+  background-position: bottom, 0 2000px, 300px 2550px, 400px 4320px;
   background-size: contain, 25%, 80%, 65%;
   background-attachment: scroll;
 }
@@ -53,7 +53,7 @@ video {
 .newsletter {
   background-image: url(../img/background-newsletter.svg);
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: contain;
   background-position: center;
 }
 

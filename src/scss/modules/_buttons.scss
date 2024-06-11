@@ -4,18 +4,20 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  border: 1px solid #000;
 }
 
 button:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #e6007e;
+  color: #fff;
+  border: none;
 }
 
 .newsletter-button {
@@ -32,4 +34,8 @@ button:hover {
   text-transform: uppercase;
   display: inline-block;
   margin: 10px;
+}
+
+.newsletter-button:hover {
+  background-color: #000;
 }
