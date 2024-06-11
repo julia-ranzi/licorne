@@ -29,10 +29,13 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  background-image: url(../img/background-zero.svg);
+  background-image: url(../img/background-zero.svg),
+    url(../img/background-bouclier.svg), url(../img/background-armure.svg),
+    url(../img/background-accolade.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
+  background-position: bottom, 0 2050px, 300px 2650px, 400px 4350px;
+  background-size: contain, 25%, 80%, 65%;
+  background-attachment: scroll;
 }
 
 a {
