@@ -16,6 +16,7 @@ button {
 
 button:hover {
   background-color: #e6007e;
+  position: relative;
   color: #fff;
   border: none;
 }
@@ -38,4 +39,5 @@ button:hover {
 
 .newsletter-button:hover {
   background-color: #000;
+  border: 1px solid #000;
 }

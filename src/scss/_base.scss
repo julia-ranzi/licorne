@@ -32,10 +32,12 @@ body {
   font-size: 16px;
   background-image: url(../img/background-zero.svg),
     url(../img/background-bouclier.svg), url(../img/background-armure.svg),
-    url(../img/background-fool.svg), url(../img/background-crown.svg);
+    url(../img/background-fool.svg), url(../img/background-crown.svg),
+    url(../img/background-accolade-jaune.svg);
   background-repeat: no-repeat;
-  background-position: bottom, 0 2000px, 300px 2550px, 700px 4250px, 0 5550px;
-  background-size: contain, 25%, 80%, 60%;
+  background-position: bottom, 0 2000px, 300px 2550px, 610px 4050px, 0 5550px,
+    450 1500;
+  background-size: contain, 25%, 80%, 70%, contain, 35%;
   background-attachment: scroll;
 }
 
