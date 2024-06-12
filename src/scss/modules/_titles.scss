@@ -11,11 +11,17 @@ h2 {
   line-height: normal;
   text-transform: uppercase;
   position: relative;
+  margin-bottom: 60px;
+}
+
+.notrebrasserie,
+.nosbieres {
+  margin-bottom: 0;
 }
 
 .h2-deco-bieres {
   position: relative;
-  bottom: 40%;
+  bottom: 20%;
   left: 15%;
 }
 
